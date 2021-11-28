@@ -1,0 +1,153 @@
+.App {
+  height: 100vh;
+  overflow: scroll;
+  text-align: center;
+  background-color: #132752;
+}
+.container {
+  height: 100%;
+ background: -webkit-radial-gradient(center, #0c0206 30%, #132752 80%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  padding-top: 30px;
+}
+.collection{
+  margin-top:20px;
+}
+.col-button{
+  color:#2d2833;
+  border: 0;
+  height: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left, #cabcfc, #93dbfa);
+}
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(190, 179, 253);
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #79eabd 30%, #c1a0ef 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation-name: text1;
+  animation-duration: 3s;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.cta-button {
+  height: 50px;
+  border: 0;
+  width: auto;
+  padding-left: 300px;
+  padding-right: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(12, 9, 201);
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #bcfcf1, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  
+}
+.mint-button {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+.name{
+  color: #79eabd;
+}
+.opensea-button {
+  background-color: rgb(32, 129, 226);
+}
+.mint-count {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.lebron{
+  height:10px;
+  width:10px;
+  opacity:.4;
+  pointer-events: none;
+  margin-right:500px;
+}
+.box{
+  margin-bottom:20px;
+  border: 20px;
+}
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
